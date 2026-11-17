@@ -1,0 +1,32 @@
+.card {
+  border: 2px solid black;
+  width: 700px;
+  background-color: #161313;
+  border-radius: 10px;
+  display: flex;
+  margin: 4px;
+}
+.image {
+  position: relative;
+  width: 230px;
+}
+.image img {
+  width: 230px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.image p {
+  position: absolute;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  bottom: 0px;
+  right: 19px;
+  padding: 3px 3px;
+  font-weight: 549;
+}
+.text {
+  margin: 10px;
+  color: white;
+}
